@@ -150,6 +150,11 @@ header .container .info small {}
     gap: 10%;
     align-items: center;
 }
+@media (max-width:370px) {
+    .content .container .box{
+        gap: 1%;
+    }
+}
 .content .container i {
     font-size: 18px;
     margin: 0 14px 0 20px;
