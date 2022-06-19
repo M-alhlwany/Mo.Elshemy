@@ -152,7 +152,9 @@ header .container .info small {}
 }
 @media (max-width:370px) {
     .content .container .box{
-        gap: 1%;
+        gap: 0;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 .content .container i {
