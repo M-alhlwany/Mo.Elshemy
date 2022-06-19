@@ -41,7 +41,11 @@ a {
     color: var(--main-color);
 }
 
-
+@media (min-width:480px) {
+    .container {
+        width: 460px;
+    }
+}
 
 /* End Global Rules */
 
@@ -50,7 +54,12 @@ a {
 
 /* Start Header */
 .container {
-    width: 570px;
+    width: 80vw;
+}
+@media (max-width:480px) {
+    .container {
+        width: 460px;
+    }
 }
 header {
     background-color: white;
@@ -113,7 +122,6 @@ header .container .info small {}
 /* End Header */
 /* Start content */
 .content .container {
-    width: 570px;
     margin: 0 auto;
     box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
 }
@@ -143,7 +151,7 @@ header .container .info small {}
 }
 .content .container .box{
     display: flex;
-    gap: 100px;
+    gap: 10%;
     align-items: center;
 }
 .content .container i {
