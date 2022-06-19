@@ -27,7 +27,7 @@ html{
 body{
     font-family: 'Amiri', serif; 
     text-transform: capitalize;
-    height: 100vh;
+    height: auto;
 }
 
 ul {
